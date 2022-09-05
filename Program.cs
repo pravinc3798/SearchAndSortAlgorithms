@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("\n 1. Binary Search \n 2. Anagram \n 3. Bubble Sort \n 4. Insertion Sort \n 5. Merge Sort \n 6. Prime Numbers \n 7. Customize Message \n 8. EXIT \n\n Enter the number corresponding to required program : "); var input = Console.ReadLine();
+            Console.Write("\n 1. Binary Search \n 2. Anagram \n 3. Bubble Sort \n 4. Insertion Sort \n 5. Merge Sort \n 6. Prime Numbers \n 7. Customize Message \n 8. Find Your Number \n 9. EXIT \n\n Enter the number corresponding to required program : "); var input = Console.ReadLine();
 
             switch (input)
             {
@@ -49,6 +49,10 @@
                     Main(args);
                     break;
                 case "8":
+                    FindYourNumber.Find();
+                    Main(args);
+                    break;
+                case "9":
                     break;
                 default:
                     Console.WriteLine("\n INVALID INPUT \n");
