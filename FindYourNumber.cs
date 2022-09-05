@@ -23,7 +23,7 @@
 
             if (answer == "Y" || answer == "y" || answer == "Yes" || answer == "yes")
             {
-                Console.WriteLine("Voila ! Found your guessed number.");
+                Console.WriteLine(" \n Voila ! Found your guessed number. \n");
                 return;
             }
             else
