@@ -35,7 +35,7 @@
                 case "5":
                     Console.Write("\n Input a string array (use space between two elements) : "); var array3 = Console.ReadLine().Split(" ");
                     MergeSort.SortStringArray(array3);
-                    PrintArray.Print(array3);
+                    array3 = PrintArray.Print(array3);
                     Main(args);
                     break;
                 case "6":
